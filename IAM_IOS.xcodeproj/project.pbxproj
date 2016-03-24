@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A3D92A1A1C996ABF007BCABE /* IAM_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAM_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D92A1A1C996ABF007BCABE /* IAM_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAM_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D92A1D1C996ABF007BCABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D92A1F1C996ABF007BCABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A3D92A221C996ABF007BCABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		A3D92A271C996ABF007BCABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D92A2A1C996ABF007BCABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3D92A2C1C996ABF007BCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D92A311C996ABF007BCABE /* IAM_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAM_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D92A311C996ABF007BCABE /* IAM_IOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAM_IOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D92A351C996ABF007BCABE /* IAM_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAM_TestTests.swift; sourceTree = "<group>"; };
 		A3D92A371C996ABF007BCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D92A3C1C996ABF007BCABE /* IAM_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAM_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D92A3C1C996ABF007BCABE /* IAM_IOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAM_IOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D92A401C996ABF007BCABE /* IAM_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAM_TestUITests.swift; sourceTree = "<group>"; };
 		A3D92A421C996ABF007BCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		A3D92A1B1C996ABF007BCABE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3D92A1A1C996ABF007BCABE /* IAM_Test.app */,
-				A3D92A311C996ABF007BCABE /* IAM_TestTests.xctest */,
-				A3D92A3C1C996ABF007BCABE /* IAM_TestUITests.xctest */,
+				A3D92A1A1C996ABF007BCABE /* IAM_IOS.app */,
+				A3D92A311C996ABF007BCABE /* IAM_IOS.xctest */,
+				A3D92A3C1C996ABF007BCABE /* IAM_IOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3D92A191C996ABF007BCABE /* IAM_Test */ = {
+		A3D92A191C996ABF007BCABE /* IAM_IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D92A451C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_Test" */;
+			buildConfigurationList = A3D92A451C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_IOS" */;
 			buildPhases = (
 				A3D92A161C996ABF007BCABE /* Sources */,
 				A3D92A171C996ABF007BCABE /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = IAM_Test;
+			name = IAM_IOS;
 			productName = IAM_Test;
-			productReference = A3D92A1A1C996ABF007BCABE /* IAM_Test.app */;
+			productReference = A3D92A1A1C996ABF007BCABE /* IAM_IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A3D92A301C996ABF007BCABE /* IAM_TestTests */ = {
+		A3D92A301C996ABF007BCABE /* IAM_IOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D92A481C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_TestTests" */;
+			buildConfigurationList = A3D92A481C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_IOSTests" */;
 			buildPhases = (
 				A3D92A2D1C996ABF007BCABE /* Sources */,
 				A3D92A2E1C996ABF007BCABE /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				A3D92A331C996ABF007BCABE /* PBXTargetDependency */,
 			);
-			name = IAM_TestTests;
+			name = IAM_IOSTests;
 			productName = IAM_TestTests;
-			productReference = A3D92A311C996ABF007BCABE /* IAM_TestTests.xctest */;
+			productReference = A3D92A311C996ABF007BCABE /* IAM_IOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A3D92A3B1C996ABF007BCABE /* IAM_TestUITests */ = {
+		A3D92A3B1C996ABF007BCABE /* IAM_IOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D92A4B1C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_TestUITests" */;
+			buildConfigurationList = A3D92A4B1C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_IOSUITests" */;
 			buildPhases = (
 				A3D92A381C996ABF007BCABE /* Sources */,
 				A3D92A391C996ABF007BCABE /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				A3D92A3E1C996ABF007BCABE /* PBXTargetDependency */,
 			);
-			name = IAM_TestUITests;
+			name = IAM_IOSUITests;
 			productName = IAM_TestUITests;
-			productReference = A3D92A3C1C996ABF007BCABE /* IAM_TestUITests.xctest */;
+			productReference = A3D92A3C1C996ABF007BCABE /* IAM_IOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3D92A151C996ABF007BCABE /* Build configuration list for PBXProject "IAM_Test" */;
+			buildConfigurationList = A3D92A151C996ABF007BCABE /* Build configuration list for PBXProject "IAM_IOS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3D92A191C996ABF007BCABE /* IAM_Test */,
-				A3D92A301C996ABF007BCABE /* IAM_TestTests */,
-				A3D92A3B1C996ABF007BCABE /* IAM_TestUITests */,
+				A3D92A191C996ABF007BCABE /* IAM_IOS */,
+				A3D92A301C996ABF007BCABE /* IAM_IOSTests */,
+				A3D92A3B1C996ABF007BCABE /* IAM_IOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		A3D92A331C996ABF007BCABE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A3D92A191C996ABF007BCABE /* IAM_Test */;
+			target = A3D92A191C996ABF007BCABE /* IAM_IOS */;
 			targetProxy = A3D92A321C996ABF007BCABE /* PBXContainerItemProxy */;
 		};
 		A3D92A3E1C996ABF007BCABE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A3D92A191C996ABF007BCABE /* IAM_Test */;
+			target = A3D92A191C996ABF007BCABE /* IAM_IOS */;
 			targetProxy = A3D92A3D1C996ABF007BCABE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,7 +405,7 @@
 				INFOPLIST_FILE = IAM_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShowYourSelf.IAM-Test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IAM_IOS;
 			};
 			name = Debug;
 		};
@@ -416,7 +416,7 @@
 				INFOPLIST_FILE = IAM_Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShowYourSelf.IAM-Test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IAM_IOS;
 			};
 			name = Release;
 		};
@@ -427,8 +427,8 @@
 				INFOPLIST_FILE = IAM_TestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShowYourSelf.IAM-TestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IAM_Test.app/IAM_Test";
+				PRODUCT_NAME = IAM_IOS;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IAM_IOS.app/IAM_IOS";
 			};
 			name = Debug;
 		};
@@ -439,8 +439,8 @@
 				INFOPLIST_FILE = IAM_TestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShowYourSelf.IAM-TestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IAM_Test.app/IAM_Test";
+				PRODUCT_NAME = IAM_IOS;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IAM_IOS.app/IAM_IOS";
 			};
 			name = Release;
 		};
@@ -450,7 +450,7 @@
 				INFOPLIST_FILE = IAM_TestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShowYourSelf.IAM-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IAM_IOS;
 				TEST_TARGET_NAME = IAM_Test;
 				USES_XCTRUNNER = YES;
 			};
@@ -462,7 +462,7 @@
 				INFOPLIST_FILE = IAM_TestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ShowYourSelf.IAM-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = IAM_IOS;
 				TEST_TARGET_NAME = IAM_Test;
 				USES_XCTRUNNER = YES;
 			};
@@ -471,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3D92A151C996ABF007BCABE /* Build configuration list for PBXProject "IAM_Test" */ = {
+		A3D92A151C996ABF007BCABE /* Build configuration list for PBXProject "IAM_IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D92A431C996ABF007BCABE /* Debug */,
@@ -480,29 +480,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D92A451C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_Test" */ = {
+		A3D92A451C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D92A461C996ABF007BCABE /* Debug */,
 				A3D92A471C996ABF007BCABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A3D92A481C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_TestTests" */ = {
+		A3D92A481C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_IOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D92A491C996ABF007BCABE /* Debug */,
 				A3D92A4A1C996ABF007BCABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A3D92A4B1C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_TestUITests" */ = {
+		A3D92A4B1C996ABF007BCABE /* Build configuration list for PBXNativeTarget "IAM_IOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D92A4C1C996ABF007BCABE /* Debug */,
 				A3D92A4D1C996ABF007BCABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

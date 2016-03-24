@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IAM_Test.xcodeproj">
+      location = "self:/Users/KMK/Documents/IAM_Test/IAM_IOS.xcodeproj">
    </FileRef>
 </Workspace>

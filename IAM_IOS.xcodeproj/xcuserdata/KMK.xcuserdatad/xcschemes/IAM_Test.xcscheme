@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3D92A191C996ABF007BCABE"
-               BuildableName = "IAM_Test.app"
-               BlueprintName = "IAM_Test"
-               ReferencedContainer = "container:IAM_Test.xcodeproj">
+               BuildableName = "IAM_IOS.app"
+               BlueprintName = "IAM_IOS"
+               ReferencedContainer = "container:IAM_IOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3D92A301C996ABF007BCABE"
-               BuildableName = "IAM_TestTests.xctest"
-               BlueprintName = "IAM_TestTests"
-               ReferencedContainer = "container:IAM_Test.xcodeproj">
+               BuildableName = "IAM_IOS.xctest"
+               BlueprintName = "IAM_IOSTests"
+               ReferencedContainer = "container:IAM_IOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3D92A3B1C996ABF007BCABE"
-               BuildableName = "IAM_TestUITests.xctest"
-               BlueprintName = "IAM_TestUITests"
-               ReferencedContainer = "container:IAM_Test.xcodeproj">
+               BuildableName = "IAM_IOS.xctest"
+               BlueprintName = "IAM_IOSUITests"
+               ReferencedContainer = "container:IAM_IOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3D92A191C996ABF007BCABE"
-            BuildableName = "IAM_Test.app"
-            BlueprintName = "IAM_Test"
-            ReferencedContainer = "container:IAM_Test.xcodeproj">
+            BuildableName = "IAM_IOS.app"
+            BlueprintName = "IAM_IOS"
+            ReferencedContainer = "container:IAM_IOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3D92A191C996ABF007BCABE"
-            BuildableName = "IAM_Test.app"
-            BlueprintName = "IAM_Test"
-            ReferencedContainer = "container:IAM_Test.xcodeproj">
+            BuildableName = "IAM_IOS.app"
+            BlueprintName = "IAM_IOS"
+            ReferencedContainer = "container:IAM_IOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3D92A191C996ABF007BCABE"
-            BuildableName = "IAM_Test.app"
-            BlueprintName = "IAM_Test"
-            ReferencedContainer = "container:IAM_Test.xcodeproj">
+            BuildableName = "IAM_IOS.app"
+            BlueprintName = "IAM_IOS"
+            ReferencedContainer = "container:IAM_IOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
