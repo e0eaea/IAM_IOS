@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -20,7 +20,6 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="top" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Us8-dN-GYi">
                                 <rect key="frame" x="-12" y="20" width="344" height="41"/>
-                                <animations/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Us8-dN-GYi" secondAttribute="height" multiplier="42:5" id="jy1-lD-rKt"/>
@@ -31,7 +30,6 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VC3-nn-0S8">
                                 <rect key="frame" x="266" y="68" width="42" height="36"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.75840785870000005" green="1" blue="0.4664175022" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="VC3-nn-0S8" secondAttribute="height" multiplier="7:6" id="N04-ud-FRa"/>
@@ -42,7 +40,6 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHM-Zj-S6x">
                                 <rect key="frame" x="-12" y="522.5" width="344" height="45.5"/>
-                                <animations/>
                                 <color key="backgroundColor" red="1" green="0.14537848658978658" blue="0.32881631485811302" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="yHM-Zj-S6x" secondAttribute="height" multiplier="83:11" id="wAz-gd-AGX"/>
@@ -51,7 +48,6 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHZ-au-0c3">
                                 <rect key="frame" x="12" y="68" width="42" height="36"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.75840785870000005" green="1" blue="0.4664175022" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="sHZ-au-0c3" secondAttribute="height" multiplier="7:6" id="aqK-Ef-935"/>
@@ -62,7 +58,6 @@
                             </label>
                             <textView clipsSubviews="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bB4-h6-bwE">
                                 <rect key="frame" x="106" y="230" width="108" height="108"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.71323332530000005" green="0.8469129997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="bB4-h6-bwE" secondAttribute="height" multiplier="1:1" id="VjV-IA-1rt"/>
@@ -79,7 +74,6 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="sHZ-au-0c3" firstAttribute="top" secondItem="Us8-dN-GYi" secondAttribute="bottom" constant="7" id="0ae-NV-t6Q"/>
